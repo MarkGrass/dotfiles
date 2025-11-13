@@ -95,25 +95,25 @@ prompt_git_info() {
 
 prompt_setup() {
     # Display git branch
-    
+
     # autoload -Uz add-zsh-hook
     # add-zsh-hook precmd prompt_precmd
 
     setopt prompt_subst
-    
-    ZSH_THEME_GIT_PROMPT_PREFIX=" %B%F{red}⛕ %f%b"
+
+    ZSH_THEME_GIT_PROMPT_PREFIX=" %B%F{red}%f%b"
     ZSH_THEME_GIT_PROMPT_DIRTY=""
     ZSH_THEME_GIT_PROMPT_CLEAN=""
 
-    ZSH_THEME_GIT_PROMPT_ADDED="%F{green}●%f "
-    ZSH_THEME_GIT_PROMPT_MODIFIED="%F{blue}◎%f "
-    ZSH_THEME_GIT_PROMPT_DELETED="%F{red}⃠⛒%f "
-    ZSH_THEME_GIT_PROMPT_RENAMED="%F{magenta}R%f "
-    ZSH_THEME_GIT_PROMPT_UNMERGED="%F{yellow}⟚%f "
-    ZSH_THEME_GIT_PROMPT_UNTRACKED="%F{white}◍%f "
-    ZSH_THEME_GIT_PROMPT_STASHED="%B%F{red}◌%f%b "
-    ZSH_THEME_GIT_PROMPT_BEHIND="%B%F{red}↲%f%b "
-    ZSH_THEME_GIT_PROMPT_AHEAD="%B%F{green}↱%f%b "
+    ZSH_THEME_GIT_PROMPT_ADDED="%F{green} %f"
+    ZSH_THEME_GIT_PROMPT_MODIFIED="%F{blue}󱡓 %f"
+    ZSH_THEME_GIT_PROMPT_DELETED="%F{red}󰅙 %f"
+    ZSH_THEME_GIT_PROMPT_RENAMED="%F{magenta}󰕗 %f"
+    ZSH_THEME_GIT_PROMPT_UNMERGED="%F{yellow}󰬸 %f"
+    ZSH_THEME_GIT_PROMPT_UNTRACKED="%F{white}󰺕 %f"
+    ZSH_THEME_GIT_PROMPT_STASHED="%F{red}󱥸 %f"
+    ZSH_THEME_GIT_PROMPT_BEHIND="%F{red}󱖖 %f"
+    ZSH_THEME_GIT_PROMPT_AHEAD="%F{green}󱖔 %f"
 
 #     PR_HBAR="─"
 #     PR_ULC="┌"
