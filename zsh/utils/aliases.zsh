@@ -1,6 +1,7 @@
+alias sudi='sudo '
 alias l='ls -CF'
 alias ll='ls -alF'
-alias ls='ls -A'
+alias la='ls -A'
 alias mkcd='() { mkdir -p "$1" && cd "$1" }'
 alias vim=nvim
 alias vi=nvim
